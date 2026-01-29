@@ -5,3 +5,4 @@ fs.readFile(process.argv[2], (err, contents) => {
   err ? console.log(err) : console.log(contents.toString());
   
 });
+
